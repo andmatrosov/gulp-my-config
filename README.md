@@ -1,1 +1,1 @@
-"# gulp-my-config" 
+# gulp-my-config
