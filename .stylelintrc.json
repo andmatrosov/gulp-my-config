@@ -1,0 +1,16 @@
+{
+    "extends": ["stylelint-config-standard", "stylelint-config-rational-order"],
+    "plugins": [
+    "stylelint-scss"
+    ],
+    "rules": {
+    "indentation": 4,
+    "order/properties-order": [],
+    "at-rule-no-unknown": null,
+    "declaration-empty-line-before": null,
+    "scss/at-rule-no-unknown": true,
+    "plugin/rational-order": [true, {
+        "empty-line-between-groups": true
+    }]
+    }
+}
